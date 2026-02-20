@@ -14,6 +14,26 @@ A playful, interactive Streamlit application where you can chat with **Shin-chan
 
 ### 1. Prerequisites
 You must have [Ollama](https://ollama.com/) installed and running on your local machine.
+Once Ollama is installed, pull the models used in the app:
 
-### 2. Once Ollama is installed, pull the models used in the app:
 ollama pull gemma3:latest
+
+### 2. Installation
+Clone this repository and navigate to the project folderthen install the required Python packages:
+
+git clone <repo_link>
+cd shinchan-ai-sketchbook
+pip install -r requirements.txt
+
+### 3. Running the App
+Start the Streamlit server:
+
+streamlit run shinchan.py
+
+---
+
+## 🛠️ Built With
+
+Streamlit - The fastest way to build and share data apps.
+Ollama - Local LLM integration.
+Streamlit Drawable Canvas - For the drawing interface.
